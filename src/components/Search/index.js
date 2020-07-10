@@ -32,17 +32,17 @@ const Search = () => {
         <Row gutter={24}>
           <Col span={8}>
             <Form.Item label="User" name="user">
-              <Input placeholder="Ingrese user" disabled />
+              <Input placeholder="Ingrese user" />
             </Form.Item>
           </Col>
           <Col span={8}>
             <Form.Item label="Token" name="token">
-              <Input placeholder="Ingrese un token" disabled />
+              <Input placeholder="Ingrese un token" />
             </Form.Item>
           </Col>
           <Col span={8}>
             <Form.Item label="User Id" name="userId">
-              <Input placeholder="Ingrese un id" disabled/>
+              <Input placeholder="Ingrese un id"/>
             </Form.Item>
           </Col>
         </Row>
